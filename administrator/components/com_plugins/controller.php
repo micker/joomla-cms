@@ -50,10 +50,9 @@ class PluginsController extends JControllerLegacy
 
 		parent::display();
 	}
-    public function install_plugin(){
+    public function install_plugin()
+    {
             $link = 'index.php?option=com_installer';
             $this->setRedirect($link);
          }
-
-    
-}
+    }
